@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'SairaCondensed-SemiBold';
+    src: url(font/Saira_Condensed/SairaCondensed-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'SairaCondensed-Medium';
+    src: url(font/Saira_Condensed/SairaCondensed-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Sansation";
+    src: url("//db.onlinewebfonts.com/t/a163d087c4bfdff182eb1b4fcc595798.eot");
+    src: url("//db.onlinewebfonts.com/t/a163d087c4bfdff182eb1b4fcc595798.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/a163d087c4bfdff182eb1b4fcc595798.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/a163d087c4bfdff182eb1b4fcc595798.woff") format("woff"), url("//db.onlinewebfonts.com/t/a163d087c4bfdff182eb1b4fcc595798.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/a163d087c4bfdff182eb1b4fcc595798.svg#Sansation") format("svg");
+}
+
+
+html {
+    font-size: 62, 5%;
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 10rem;
+    font-family: 'SairaCondensed-SemiBold', sans-serif;
+    margin-top: 6rem;
+    text-align: center;
+    margin-bottom: 0rem;
+}
+
+.description {
+    font-family: 'Sansation', sans-serif;
+    line-height: 1.6;
+    margin-top: 0rem;
+    margin-left: 10rem;
+    width: 60rem;
+    font-size: 1.5em;
+    font-weight: 100;
+    font-weight: lighter;
+}
+
+a {
+    color: rgb(120, 120, 59);
+}
