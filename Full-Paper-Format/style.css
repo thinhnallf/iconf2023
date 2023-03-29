@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'SairaCondensed-SemiBold';
+    src: url(font/Saira_Condensed/SairaCondensed-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'SairaCondensed-Medium';
+    src: url(font/Saira_Condensed/SairaCondensed-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Sansation";
+    src: url("//db.onlinewebfonts.com/t/a163d087c4bfdff182eb1b4fcc595798.eot");
+    src: url("//db.onlinewebfonts.com/t/a163d087c4bfdff182eb1b4fcc595798.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/a163d087c4bfdff182eb1b4fcc595798.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/a163d087c4bfdff182eb1b4fcc595798.woff") format("woff"), url("//db.onlinewebfonts.com/t/a163d087c4bfdff182eb1b4fcc595798.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/a163d087c4bfdff182eb1b4fcc595798.svg#Sansation") format("svg");
+}
+
+html {
+    font-size: 62, 5%;
+
+}
+
+body {
+    overflow-x: hidden;
+
+}
+
+div {
+    margin-left: 8rem;
+}
+
+h1 {
+    font-size: 6rem;
+    font-family: 'SairaCondensed-SemiBold', sans-serif;
+    margin-top: 9rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    text-shadow: 10px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+.we-accept {
+    font-family: 'Sansation', Arial;
+    font-weight: 700;
+    width: 70rem;
+    font-size: 2em;
+}
+
+.full-paper-review {
+    margin-top: 3rem;
+    font-family: 'Sansation', arial;
+    height: 100%;
+    background-color: #E9F9E7;
+    border-radius: 30px;
+    border: black solid;
+    padding: 1em 1em;
+    font-size: 1.5em;
+    font-weight: 600;
+    width: 60rem;
+
+}
+
+ul {
+    line-height: 1.6;
+}
+
+.submit {
+    border: none;
+    position: absolute;
+    margin-left: 15rem;
+    margin-top: 2rem;
+    padding: 1rem 3rem;
+    background: #DEC907;
+    box-shadow: 2px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 45px;
+    display: flex;
+    cursor: pointer;
+    border: none;
+}
+
+section {
+    display: flex;
+    font-family: 'Sansation', arial;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+
+
+img {
+    width: 35rem;
+}
+
+.follow {
+    font-weight: 500;
+}
