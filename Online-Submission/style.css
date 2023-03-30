@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'SairaCondensed-SemiBold';
+    src: url(font/Saira_Condensed/SairaCondensed-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'SairaCondensed-Medium';
+    src: url(font/Saira_Condensed/SairaCondensed-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Sansation";
+    src: url("//db.onlinewebfonts.com/t/a163d087c4bfdff182eb1b4fcc595798.eot");
+    src: url("//db.onlinewebfonts.com/t/a163d087c4bfdff182eb1b4fcc595798.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/a163d087c4bfdff182eb1b4fcc595798.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/a163d087c4bfdff182eb1b4fcc595798.woff") format("woff"), url("//db.onlinewebfonts.com/t/a163d087c4bfdff182eb1b4fcc595798.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/a163d087c4bfdff182eb1b4fcc595798.svg#Sansation") format("svg");
+}
+
+@font-face {
+    font-family: 'SairaCondensed-Bold';
+    src: url(font/Saira_Condensed/SairaCondensed-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'SairaCondensed-Regular';
+    src: url(font/Saira_Condensed/SairaCondensed-Regular.ttf);
+}
+
+html {
+    font-size: 62, 5%;
+
+}
+
+body {
+    font-family: 'SairaCondensed-Meidum', sans-serif;
+    overflow-x: hidden;
+    margin-left: 8rem;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    margin-right: 8rem;
+    font-size: 8rem;
+    font-family: 'SairaCondensed-SemiBold', sans-serif;
+    margin-top: 9rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    text-shadow: 10px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+h2 {
+    font-family: 'SairaCondesed-Bold', sans-serif;
+    font-size: 2em;
+}
+
+label {
+    font-family: 'SairaCondensed-Regular';
+    font-weight: 600;
+}
+
+.star-sign {
+    color: #CF1818;
+}
+
+input {
+    display: flex;
+    border-radius: 30px;
+    width: 18rem;
+    height: 1rem;
+    padding: 1em 1em;
+    border: black solid;
+}
+
+.input-field {
+    width: 30%;
+    display: inline-block;
+}
+
+.section2 div {
+    width: 45%;
+    display: inline-block;
+    margin-right: 11.2rem;
+}
+
+section {
+    margin-bottom: 1rem;
+}
+
+select {
+    display: flex;
+    width: 19.7rem;
+    height: 3.2rem;
+    border-radius: 30px;
+    padding: 0.5em 1em;
+    border: black solid;
+    vertical-align: top;
+}
+
+#institution {
+    width: 40rem;
+}
+
+div.input-field2 {
+    width: 20%;
+}
+
+input,
+select {
+    font-family: 'SairaCondensed-Medium';
+    font-size: 17px;
+    border-width: 0.3px;
+}
+
+#paper-title {
+    width: 55rem;
+}
+
+
+h5 {
+    width: 100%;
+    width: 40rem;
+    font-weight: 200;
+}
+
+.Check-box {
+    background-color: red;
+}
+
+.check-box {
+    display: inline-block;
+    width: 30%;
+}

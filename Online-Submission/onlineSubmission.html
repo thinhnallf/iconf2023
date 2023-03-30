@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Submission</title>
+  </head>
+  <body>
+    <h1 class="title">ONLINE SUBMISSION</h1>
+    <h2>Submission Form</h2>
+    <h3>Author's Information</h3>
+    <form action="">
+      <section>
+        <div class="input-field">
+          <label for=""> Prefix <span class="star-sign">*</span></label>
+          <select class="Prefix" name="Prefix" id="">
+            <option value="Select">Select</option>
+            <option value="Prof Dr">Prof Dr</option>
+            <option value="MSC">MSC</option>
+            <option value="MD">MD</option>
+            <option value="Mrs.">Mrs.</option>
+            <option value="Ms.">Ms.</option>
+            <option value="Mr.">Mr.</option>
+            <option value="Rev.">Rev.</option>
+          </select>
+        </div>
+        <div class="input-field">
+          <label for="">First Name <span class="star-sign">*</span></label>
+          <input type="text" required />
+        </div>
+        <div class="input-field">
+          <label for="">Last Name <span class="star-sign">*</span></label>
+          <input type="text" required />
+        </div>
+      </section>
+      <section class="section2">
+        <div class="input-field">
+          <label for="">Institution <span class="star-sign">*</span></label>
+          <input type="text" id="institution" required />
+        </div>
+        <div class="input-field2">
+          <label for="">Country <span class="star-sign">*</span></label>
+          <input type="country" required />
+        </div>
+      </section>
+      <section>
+        <div class="input-field">
+          <label for="">
+            Corresponding Author's Email <span class="star-sign">*</span></label
+          >
+          <input type="text" required />
+        </div>
+        <div class="input-field">
+          <label for=""
+            >Phone No. (With Country Code)
+            <span class="star-sign">*</span></label
+          >
+          <input type="text" required />
+        </div>
+        <div class="input-field">
+          <label for=""
+            >Co-Authors Names <span class="star-sign">*</span></label
+          >
+          <input type="text" required />
+        </div>
+      </section>
+      <h3>Author(s) Information</h3>
+      <div class="input-field">
+        <label for="">Paper Title <span class="star-sign">*</span></label>
+        <input id="paper-title" type="text" required />
+      </div>
+      <h4>Type Of Presentation <span class="star-sign">*</span></h4>
+      <h5>
+        "The Scientific Committee reserves the right to decide the final type of
+        presentation"
+      </h5>
+      <section class="Check-box">
+        <div class="check-box">
+          <input type="checkbox" />
+          <label for="">Oral Presentation</label>
+        </div>
+        <div class="check-box">
+          <input type="checkbox" />
+          <label for="">Poster Presentation</label>
+        </div>
+        <div class="check-box">
+          <input type="checkbox" />
+          <label for="">Virtual Presentation</label>
+        </div>
+      </section>
+      <div class="input-field">
+        <label for="">Abstract <span class="star-sign">*</span></label>
+        <textarea
+          class="message"
+          aria-required="true"
+          aria-invalid="false"
+          rows="10"
+          cols="50"
+        ></textarea>
+      </div>
+      <div class="input-field">
+        <label for="">Keywords <span class="star-sign">*</span></label>
+        <input type="text" required />
+      </div>
+      <div class="attach">
+        <label for="">Attach Your File <span class="star-sign">*</span></label>
+        <div class="attach-file">
+          <input type="file" />
+          <p class="no-file">No file chosen</p>
+        </div>
+
+        <div class="terms">
+          <label for=""
+            >Terms of Agreement <span class="star-sign">*</span></label
+          >
+          <input type="checkbox" class="check-box" />
+          <p class="i-accept">
+            I accept the terms of the following Copyright Agreement, and on
+            submitting the full text paper for possible publication to OMEA
+            Conference; I confirm, acknowledge and agree expressly to the terms
+            and conditions of this copyright agreement. This copyright agreement
+            prevails and is binding to the contributing author(s).
+          </p>
+        </div>
+        <button class="submit" type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
